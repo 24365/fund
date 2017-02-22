@@ -7,7 +7,7 @@ textarea {
     resize: none
 }
 
-input:focus {
+*:focus {
     outline: none
 }
 
