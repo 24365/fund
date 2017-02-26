@@ -10,6 +10,10 @@
   "bin":{
     "fund":"index.js"
   },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/24365/fund.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
