@@ -1,15 +1,19 @@
 {
-  "name": "h5",
+  "name": "fund-h5",
   "version": "1.0.0",
   "description": "* fix some bug * add some feature",
   "main": "index.js",
   "directories": {
     "doc": "doc"
   },
+  "preferGlobal": true,
+  "bin":{
+    "fund":"index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "zengxingqi",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
