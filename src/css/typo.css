@@ -6,6 +6,9 @@ html {
   background: #fff;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
   text-rendering: optimizelegibility;
 }
 
@@ -344,4 +347,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Responsive images */
 .typo img {
   max-width: 100%;
+}
+input,
+input:focus {
+  outline: none;
 }
